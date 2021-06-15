@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/darina/Downloads/game/Entity.h
+iostream
+-
+vector
+-
+map
+-
+math.h
+-
+SDL2/SDL.h
+-
+
+/Users/darina/Downloads/game/Obstacle.h
+Entity.h
+/Users/darina/Downloads/game/Entity.h
+
+/Users/darina/Downloads/game/Particle.h
+Entity.h
+/Users/darina/Downloads/game/Entity.h
+
+/Users/darina/Downloads/game/Vector2.h
+
+/Users/darina/Downloads/game/main.cpp
+math.h
+-
+Vector2.h
+/Users/darina/Downloads/game/Vector2.h
+Entity.h
+/Users/darina/Downloads/game/Entity.h
+Particle.h
+/Users/darina/Downloads/game/Particle.h
+Obstacle.h
+/Users/darina/Downloads/game/Obstacle.h
+
